@@ -14,8 +14,5 @@ app.get('/api/users', function(req, ress) {
       ress.send(JSON.stringify(data));
     });
 
-
-  
-    //res.send(qu);
   });
 
