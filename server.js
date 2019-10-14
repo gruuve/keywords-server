@@ -11,7 +11,7 @@ app.get('/api/users', function(req, ress) {
      
     var gsearch = require('gsearch');
     gsearch.suggest(qu, function(error, data, res) {
-      ress.send(JSON.stringify(data));
+      ress.send(data);
     });
 
   });
